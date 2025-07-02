@@ -1,6 +1,7 @@
 import About from "../components/About";
 import Featured from "../components/featured";
 import Hero from "../components/hero";
+import HowItWorks from "../components/HowItWorks";
 import PublicLayout from "../layouts/public";
 
 function LandingPageComponents() {
@@ -9,6 +10,7 @@ function LandingPageComponents() {
       <Hero />
       <About />
       <Featured />
+      <HowItWorks />
     </>
   );
 }
